@@ -1,0 +1,36 @@
+@import url("reset.css");
+/*-------------------------------*/
+@import url("header.css");
+/*-------------------------------*/
+@import url("page.css");
+/*-------------------------------*/
+@import url("footer.css");
+/*-------------------------------*/
+@import url("common.css");
+body {
+	font-family: "Manrope", serif;
+	font-size: 1.0625rem;
+	line-height: 1.35;
+	color: #31353B;
+}
+[class*="__container"] {
+	max-width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
+@media (max-width: 1199.98px) {
+	[class*="__container"] {
+		max-width: 970px;
+	}
+}
+@media (max-width: 990.98px) {
+	[class*="__container"] {
+		max-width: 750px;
+	}
+}
+@media (max-width: 767.98px) {
+	[class*="__container"] {
+		max-width: none;
+	}
+}

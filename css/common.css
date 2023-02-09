@@ -1,0 +1,34 @@
+.page__main {
+}
+.page__how {
+}
+.page__deals {
+}
+.page__featured {
+}
+.page__reviews {
+}
+.page__get {
+}
+/*---------------------------------------*/
+.button {
+	background-color: #F85A47;
+	color: #fff;
+	font-weight: 700;
+	text-align: center;
+	letter-spacing: 0.01em;
+	padding: 5px 15px;
+	transition: all 0.3s ease 0s;
+	display: inline-block;
+}
+.button:hover {
+	color: #F85A47;
+	background-color: transparent;
+}
+/*---------------------------------------*/
+.title {
+	font-weight: 600;
+	font-size: 2.5rem;
+	line-height: 1.37; /* 55/40 */
+	color: #000000;
+}
